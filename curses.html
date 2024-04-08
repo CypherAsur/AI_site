@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мир IT-специальностей</title>
+    <!-- <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
+        <h1>Мир IT-специальностей</h1>
+      </div>
+      <nav>
+        <a href="about.html">О нас</a>
+        <a href="spec.html">Специализации</a>
+        <a href="curses.html">Курсы</a>
+      </nav>
+    </header>
+    <!-- courses.html (Курсы) -->
+    <section class="main">
+      <div class="courses-container">
+        <h1>Курсы по IT-специальностям</h1>
+        <div class="courses-list">
+          <div class="course card" id="web">
+            <h2>Веб-разработка</h2>
+            <img src="img/web.jpg" alt="">
+            <ul>
+              <li><a href="#">Введение в HTML и CSS</a></li>
+              <li><a href="#">Работа с JavaScript и jQuery</a></li>
+              <li><a href="#">Разработка адаптивных сайтов</a></li>
+              <li><a href="#">Работа с CMS и WordPress</a></li>
+            </ul>
+          </div>
+          <div class="course card" id="data">
+            <h2>Аналитика данных</h2>
+            <img src="img/analitic.jpg" alt="">
+            <ul>
+              <li><a href="#">Основы статистики и математики</a></li>
+              <li><a href="#">Работа с базами данных</a></li>
+              <li><a href="#">Визуализация данных</a></li>
+              <li>
+                <a href="#">Машинное обучение и искусственный интеллект</a>
+              </li>
+            </ul>
+          </div>
+          <div class="course card" id="cyber">
+            <h2>Кибербезопасность</h2>
+            <img src="img/cyber.jpg" alt="">
+            <ul>
+              <li><a href="#">Основы сетевой безопасности</a></li>
+              <li><a href="#">Работа с системами контроля доступа</a></li>
+              <li><a href="#">Защита от вредоносного ПО</a></li>
+              <li><a href="#">Организация безопасного доступа</a></li>
+            </ul>
+          </div>
+          <div class="course card" id="mobile">
+            <h2>Мобильная разработка</h2>
+            <img src="img/phone.jpg" alt="">
+            <ul>
+              <li>
+                <a href="#">Разработка мобильных приложений на Android</a>
+              </li>
+              <li><a href="#">Разработка мобильных приложений на iOS</a></li>
+              <li><a href="#">Работа с React Native</a></li>
+              <li>
+                <a href="#">Тестирование и отладка мобильных приложений</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="spec.html">Специализации</a>
+        <a href="curses.html">Курсы</a>
+      </nav>
+      <div class="conts">
+        <h3>Контакты</h3>
+        <p>Адрес: ул. Просторная, д. 10, г. Звездный</p>
+        <p>Телефон: +7 (123) 456-7890</p>
+        <p>Email: info_IT@gmail.com</p>
+        <form id="subscribeForm" action="submit.php" method="post">
+          <input
+            type="email"
+            name="email"
+            placeholder="Оставьте отзыв или вопрос"
+          />
+            <button type="submit" class="footer__button">Отправить</button>
+        </form>
+      </div>
+      <div class="social-icons">
+        <a href="#" class="icon-link"><img src="icons/tg.svg" /></a>
+        <a href="#" class="icon-link"><img src="icons/vk.svg" /></a>
+        <a href="#" class="icon-link"><img src="icons/fb.svg" /></a>
+        <!-- Добавьте другие иконки и ссылки по необходимости -->
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
