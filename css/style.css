@@ -7,13 +7,17 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: red;
+/*    color: #333;*/
     margin: 10vw auto;
     padding: 0;
+    background-image: url("../img/background.jpg");
 }
 
+
+
 .main {
+    background-color: #ededed;
     margin: 0 7vw;
 }
 
